@@ -1,0 +1,1002 @@
+[
+    {
+      "name": "Olivia Davis 1",
+      "email": "olivia.davis1@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 6,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Remote",
+      "resume_summary": "Machine Learning Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Google; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Priya Martinez 2",
+      "email": "priya.martinez2@example.com",
+      "role": "Data Engineer",
+      "experience": 9,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "Seattle, WA",
+      "resume_summary": "Data Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at Tesla; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ava Martinez 3",
+      "email": "ava.martinez3@example.com",
+      "role": "AI Engineer",
+      "experience": 10,
+      "skills": "Python, LLMs, OpenAI, LangGraph, LangChain, RAG, FastAPI, Docker",
+      "location": "Remote",
+      "resume_summary": "AI Engineer with 10 years of experience building production systems.",
+      "projects": "Built enterprise platform at Tesla; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Noah Johnson 4",
+      "email": "noah.johnson4@example.com",
+      "role": "Data Engineer",
+      "experience": 6,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "Chicago, IL",
+      "resume_summary": "Data Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Snowflake; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Michael Martinez 5",
+      "email": "michael.martinez5@example.com",
+      "role": "Frontend Engineer",
+      "experience": 8,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "New York, NY",
+      "resume_summary": "Frontend Engineer with 8 years of experience building production systems.",
+      "projects": "Built enterprise platform at Anthropic; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Daniel Smith 6",
+      "email": "daniel.smith6@example.com",
+      "role": "Software Engineer",
+      "experience": 6,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Denver, CO",
+      "resume_summary": "Software Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Coinbase; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Emma Brown 7",
+      "email": "emma.brown7@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 10,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Chicago, IL",
+      "resume_summary": "Machine Learning Engineer with 10 years of experience building production systems.",
+      "projects": "Built enterprise platform at Databricks; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Priya Jackson 8",
+      "email": "priya.jackson8@example.com",
+      "role": "Backend Engineer",
+      "experience": 2,
+      "skills": "Python, FastAPI, Docker, PostgreSQL, Redis, Kubernetes, AWS, APIs",
+      "location": "New York, NY",
+      "resume_summary": "Backend Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at NVIDIA; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Grace Johnson 9",
+      "email": "grace.johnson9@example.com",
+      "role": "Security Engineer",
+      "experience": 5,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "San Francisco, CA",
+      "resume_summary": "Security Engineer with 5 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Grace Wilson 10",
+      "email": "grace.wilson10@example.com",
+      "role": "Software Engineer",
+      "experience": 4,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Austin, TX",
+      "resume_summary": "Software Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Databricks; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "David Smith 11",
+      "email": "david.smith11@example.com",
+      "role": "Security Engineer",
+      "experience": 11,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "Austin, TX",
+      "resume_summary": "Security Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Amazon; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Liam Taylor 12",
+      "email": "liam.taylor12@example.com",
+      "role": "AI Engineer",
+      "experience": 11,
+      "skills": "Python, LLMs, OpenAI, LangGraph, LangChain, RAG, FastAPI, Docker",
+      "location": "Chicago, IL",
+      "resume_summary": "AI Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Tesla; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sophia Harris 13",
+      "email": "sophia.harris13@example.com",
+      "role": "Cloud Engineer",
+      "experience": 4,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "San Francisco, CA",
+      "resume_summary": "Cloud Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Coinbase; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sarah Lee 14",
+      "email": "sarah.lee14@example.com",
+      "role": "Full Stack Engineer",
+      "experience": 6,
+      "skills": "React, Node.js, TypeScript, Python, PostgreSQL, Docker, AWS, APIs",
+      "location": "Seattle, WA",
+      "resume_summary": "Full Stack Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sarah Taylor 15",
+      "email": "sarah.taylor15@example.com",
+      "role": "Data Engineer",
+      "experience": 9,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "Austin, TX",
+      "resume_summary": "Data Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Noah Martinez 16",
+      "email": "noah.martinez16@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 3,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Remote",
+      "resume_summary": "Machine Learning Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at OpenAI; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sophia Smith 17",
+      "email": "sophia.smith17@example.com",
+      "role": "AI Engineer",
+      "experience": 5,
+      "skills": "Python, LLMs, OpenAI, LangGraph, LangChain, RAG, FastAPI, Docker",
+      "location": "Denver, CO",
+      "resume_summary": "AI Engineer with 5 years of experience building production systems.",
+      "projects": "Built enterprise platform at Atlassian; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Mia Johnson 18",
+      "email": "mia.johnson18@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 5,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "New York, NY",
+      "resume_summary": "Machine Learning Engineer with 5 years of experience building production systems.",
+      "projects": "Built enterprise platform at Anthropic; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Emily Harris 19",
+      "email": "emily.harris19@example.com",
+      "role": "Software Engineer",
+      "experience": 3,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Remote",
+      "resume_summary": "Software Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Anthropic; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ava Brown 20",
+      "email": "ava.brown20@example.com",
+      "role": "Security Engineer",
+      "experience": 3,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "New York, NY",
+      "resume_summary": "Security Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at OpenAI; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Mia Martinez 21",
+      "email": "mia.martinez21@example.com",
+      "role": "Frontend Engineer",
+      "experience": 11,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Boston, MA",
+      "resume_summary": "Frontend Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at OpenAI; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Noah Martinez 22",
+      "email": "noah.martinez22@example.com",
+      "role": "DevOps Engineer",
+      "experience": 5,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "Atlanta, GA",
+      "resume_summary": "DevOps Engineer with 5 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ethan Brown 23",
+      "email": "ethan.brown23@example.com",
+      "role": "DevOps Engineer",
+      "experience": 6,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "Boston, MA",
+      "resume_summary": "DevOps Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Coinbase; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Henry Taylor 24",
+      "email": "henry.taylor24@example.com",
+      "role": "Security Engineer",
+      "experience": 11,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "Seattle, WA",
+      "resume_summary": "Security Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Olivia Wilson 25",
+      "email": "olivia.wilson25@example.com",
+      "role": "Cloud Engineer",
+      "experience": 3,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "Denver, CO",
+      "resume_summary": "Cloud Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at NVIDIA; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Mia Martinez 26",
+      "email": "mia.martinez26@example.com",
+      "role": "Frontend Engineer",
+      "experience": 8,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "San Francisco, CA",
+      "resume_summary": "Frontend Engineer with 8 years of experience building production systems.",
+      "projects": "Built enterprise platform at Google; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Liam Lee 27",
+      "email": "liam.lee27@example.com",
+      "role": "Frontend Engineer",
+      "experience": 3,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Remote",
+      "resume_summary": "Frontend Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Snowflake; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Emma Moore 28",
+      "email": "emma.moore28@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 8,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Chicago, IL",
+      "resume_summary": "Machine Learning Engineer with 8 years of experience building production systems.",
+      "projects": "Built enterprise platform at Google; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Michael Anderson 29",
+      "email": "michael.anderson29@example.com",
+      "role": "Software Engineer",
+      "experience": 7,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "New York, NY",
+      "resume_summary": "Software Engineer with 7 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ethan Thomas 30",
+      "email": "ethan.thomas30@example.com",
+      "role": "Backend Engineer",
+      "experience": 9,
+      "skills": "Python, FastAPI, Docker, PostgreSQL, Redis, Kubernetes, AWS, APIs",
+      "location": "Denver, CO",
+      "resume_summary": "Backend Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at Amazon; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sophia Martinez 31",
+      "email": "sophia.martinez31@example.com",
+      "role": "Security Engineer",
+      "experience": 6,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "New York, NY",
+      "resume_summary": "Security Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ava Davis 32",
+      "email": "ava.davis32@example.com",
+      "role": "Data Engineer",
+      "experience": 4,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "Austin, TX",
+      "resume_summary": "Data Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Grace Patel 33",
+      "email": "grace.patel33@example.com",
+      "role": "AI Engineer",
+      "experience": 7,
+      "skills": "Python, LLMs, OpenAI, LangGraph, LangChain, RAG, FastAPI, Docker",
+      "location": "Seattle, WA",
+      "resume_summary": "AI Engineer with 7 years of experience building production systems.",
+      "projects": "Built enterprise platform at OpenAI; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Olivia White 34",
+      "email": "olivia.white34@example.com",
+      "role": "Software Engineer",
+      "experience": 7,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Austin, TX",
+      "resume_summary": "Software Engineer with 7 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Noah Patel 35",
+      "email": "noah.patel35@example.com",
+      "role": "Backend Engineer",
+      "experience": 4,
+      "skills": "Python, FastAPI, Docker, PostgreSQL, Redis, Kubernetes, AWS, APIs",
+      "location": "San Francisco, CA",
+      "resume_summary": "Backend Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Atlassian; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Lucas Martinez 36",
+      "email": "lucas.martinez36@example.com",
+      "role": "Security Engineer",
+      "experience": 11,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "San Francisco, CA",
+      "resume_summary": "Security Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Tesla; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Priya Taylor 37",
+      "email": "priya.taylor37@example.com",
+      "role": "Full Stack Engineer",
+      "experience": 2,
+      "skills": "React, Node.js, TypeScript, Python, PostgreSQL, Docker, AWS, APIs",
+      "location": "Denver, CO",
+      "resume_summary": "Full Stack Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at Tesla; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Priya Thomas 38",
+      "email": "priya.thomas38@example.com",
+      "role": "Security Engineer",
+      "experience": 8,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "Austin, TX",
+      "resume_summary": "Security Engineer with 8 years of experience building production systems.",
+      "projects": "Built enterprise platform at Amazon; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "David Wilson 39",
+      "email": "david.wilson39@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 6,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Austin, TX",
+      "resume_summary": "Machine Learning Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Olivia Taylor 40",
+      "email": "olivia.taylor40@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 3,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Boston, MA",
+      "resume_summary": "Machine Learning Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sophia Johnson 41",
+      "email": "sophia.johnson41@example.com",
+      "role": "Full Stack Engineer",
+      "experience": 7,
+      "skills": "React, Node.js, TypeScript, Python, PostgreSQL, Docker, AWS, APIs",
+      "location": "New York, NY",
+      "resume_summary": "Full Stack Engineer with 7 years of experience building production systems.",
+      "projects": "Built enterprise platform at Atlassian; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Olivia Anderson 42",
+      "email": "olivia.anderson42@example.com",
+      "role": "Frontend Engineer",
+      "experience": 4,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Seattle, WA",
+      "resume_summary": "Frontend Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Meta; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Priya Moore 43",
+      "email": "priya.moore43@example.com",
+      "role": "Software Engineer",
+      "experience": 9,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Atlanta, GA",
+      "resume_summary": "Software Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at Google; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "John Walker 44",
+      "email": "john.walker44@example.com",
+      "role": "AI Engineer",
+      "experience": 3,
+      "skills": "Python, LLMs, OpenAI, LangGraph, LangChain, RAG, FastAPI, Docker",
+      "location": "Boston, MA",
+      "resume_summary": "AI Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Noah Moore 45",
+      "email": "noah.moore45@example.com",
+      "role": "Backend Engineer",
+      "experience": 2,
+      "skills": "Python, FastAPI, Docker, PostgreSQL, Redis, Kubernetes, AWS, APIs",
+      "location": "Denver, CO",
+      "resume_summary": "Backend Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at Databricks; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "James Thomas 46",
+      "email": "james.thomas46@example.com",
+      "role": "Software Engineer",
+      "experience": 12,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Denver, CO",
+      "resume_summary": "Software Engineer with 12 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Liam Johnson 47",
+      "email": "liam.johnson47@example.com",
+      "role": "Cloud Engineer",
+      "experience": 8,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "Denver, CO",
+      "resume_summary": "Cloud Engineer with 8 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Liam Clark 48",
+      "email": "liam.clark48@example.com",
+      "role": "Software Engineer",
+      "experience": 6,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "San Francisco, CA",
+      "resume_summary": "Software Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Amazon; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Henry Walker 49",
+      "email": "henry.walker49@example.com",
+      "role": "Backend Engineer",
+      "experience": 3,
+      "skills": "Python, FastAPI, Docker, PostgreSQL, Redis, Kubernetes, AWS, APIs",
+      "location": "Chicago, IL",
+      "resume_summary": "Backend Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Snowflake; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "David White 50",
+      "email": "david.white50@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 4,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Seattle, WA",
+      "resume_summary": "Machine Learning Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at OpenAI; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Grace Young 51",
+      "email": "grace.young51@example.com",
+      "role": "Data Engineer",
+      "experience": 9,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "New York, NY",
+      "resume_summary": "Data Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at Coinbase; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Lucas Lewis 52",
+      "email": "lucas.lewis52@example.com",
+      "role": "Backend Engineer",
+      "experience": 5,
+      "skills": "Python, FastAPI, Docker, PostgreSQL, Redis, Kubernetes, AWS, APIs",
+      "location": "Denver, CO",
+      "resume_summary": "Backend Engineer with 5 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Lucas Clark 53",
+      "email": "lucas.clark53@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 4,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Boston, MA",
+      "resume_summary": "Machine Learning Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Atlassian; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Liam Wilson 54",
+      "email": "liam.wilson54@example.com",
+      "role": "Full Stack Engineer",
+      "experience": 2,
+      "skills": "React, Node.js, TypeScript, Python, PostgreSQL, Docker, AWS, APIs",
+      "location": "Atlanta, GA",
+      "resume_summary": "Full Stack Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at Anthropic; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Noah Walker 55",
+      "email": "noah.walker55@example.com",
+      "role": "Backend Engineer",
+      "experience": 5,
+      "skills": "Python, FastAPI, Docker, PostgreSQL, Redis, Kubernetes, AWS, APIs",
+      "location": "New York, NY",
+      "resume_summary": "Backend Engineer with 5 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sophia Young 56",
+      "email": "sophia.young56@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 8,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "New York, NY",
+      "resume_summary": "Machine Learning Engineer with 8 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "John Thomas 57",
+      "email": "john.thomas57@example.com",
+      "role": "Software Engineer",
+      "experience": 11,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Remote",
+      "resume_summary": "Software Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Snowflake; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Priya White 58",
+      "email": "priya.white58@example.com",
+      "role": "Full Stack Engineer",
+      "experience": 4,
+      "skills": "React, Node.js, TypeScript, Python, PostgreSQL, Docker, AWS, APIs",
+      "location": "Boston, MA",
+      "resume_summary": "Full Stack Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Coinbase; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Grace Brown 59",
+      "email": "grace.brown59@example.com",
+      "role": "Data Engineer",
+      "experience": 3,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "Chicago, IL",
+      "resume_summary": "Data Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Google; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Olivia Kim 60",
+      "email": "olivia.kim60@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 6,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Denver, CO",
+      "resume_summary": "Machine Learning Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Tesla; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sophia Clark 61",
+      "email": "sophia.clark61@example.com",
+      "role": "Security Engineer",
+      "experience": 10,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "San Francisco, CA",
+      "resume_summary": "Security Engineer with 10 years of experience building production systems.",
+      "projects": "Built enterprise platform at Meta; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Daniel Wilson 62",
+      "email": "daniel.wilson62@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 10,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "San Francisco, CA",
+      "resume_summary": "Machine Learning Engineer with 10 years of experience building production systems.",
+      "projects": "Built enterprise platform at NVIDIA; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "David Jackson 63",
+      "email": "david.jackson63@example.com",
+      "role": "Software Engineer",
+      "experience": 2,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "San Francisco, CA",
+      "resume_summary": "Software Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at NVIDIA; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "David Wilson 64",
+      "email": "david.wilson64@example.com",
+      "role": "Machine Learning Engineer",
+      "experience": 3,
+      "skills": "Python, PyTorch, TensorFlow, Machine Learning, Deep Learning, AWS, Docker, MLflow",
+      "location": "Austin, TX",
+      "resume_summary": "Machine Learning Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Priya Anderson 65",
+      "email": "priya.anderson65@example.com",
+      "role": "Frontend Engineer",
+      "experience": 3,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Remote",
+      "resume_summary": "Frontend Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Lucas Wilson 66",
+      "email": "lucas.wilson66@example.com",
+      "role": "Security Engineer",
+      "experience": 11,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "Chicago, IL",
+      "resume_summary": "Security Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Databricks; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ethan Walker 67",
+      "email": "ethan.walker67@example.com",
+      "role": "Software Engineer",
+      "experience": 5,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Seattle, WA",
+      "resume_summary": "Software Engineer with 5 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ethan Davis 68",
+      "email": "ethan.davis68@example.com",
+      "role": "Security Engineer",
+      "experience": 2,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "Denver, CO",
+      "resume_summary": "Security Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at OpenAI; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Henry Walker 69",
+      "email": "henry.walker69@example.com",
+      "role": "DevOps Engineer",
+      "experience": 3,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "Chicago, IL",
+      "resume_summary": "DevOps Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Uber; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Noah Anderson 70",
+      "email": "noah.anderson70@example.com",
+      "role": "Security Engineer",
+      "experience": 11,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "Denver, CO",
+      "resume_summary": "Security Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Amazon; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Henry Lewis 71",
+      "email": "henry.lewis71@example.com",
+      "role": "Cloud Engineer",
+      "experience": 7,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "Seattle, WA",
+      "resume_summary": "Cloud Engineer with 7 years of experience building production systems.",
+      "projects": "Built enterprise platform at Coinbase; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "James Anderson 72",
+      "email": "james.anderson72@example.com",
+      "role": "Frontend Engineer",
+      "experience": 11,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Austin, TX",
+      "resume_summary": "Frontend Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Uber; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Liam Walker 73",
+      "email": "liam.walker73@example.com",
+      "role": "Cloud Engineer",
+      "experience": 2,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "Boston, MA",
+      "resume_summary": "Cloud Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at NVIDIA; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Daniel Smith 74",
+      "email": "daniel.smith74@example.com",
+      "role": "Frontend Engineer",
+      "experience": 12,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Austin, TX",
+      "resume_summary": "Frontend Engineer with 12 years of experience building production systems.",
+      "projects": "Built enterprise platform at Amazon; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Henry Davis 75",
+      "email": "henry.davis75@example.com",
+      "role": "Software Engineer",
+      "experience": 2,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "Austin, TX",
+      "resume_summary": "Software Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Henry Davis 76",
+      "email": "henry.davis76@example.com",
+      "role": "Security Engineer",
+      "experience": 6,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "Atlanta, GA",
+      "resume_summary": "Security Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Michael Patel 77",
+      "email": "michael.patel77@example.com",
+      "role": "DevOps Engineer",
+      "experience": 11,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "Remote",
+      "resume_summary": "DevOps Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Atlassian; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Michael Young 78",
+      "email": "michael.young78@example.com",
+      "role": "AI Engineer",
+      "experience": 2,
+      "skills": "Python, LLMs, OpenAI, LangGraph, LangChain, RAG, FastAPI, Docker",
+      "location": "San Francisco, CA",
+      "resume_summary": "AI Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at Tesla; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Daniel Smith 79",
+      "email": "daniel.smith79@example.com",
+      "role": "DevOps Engineer",
+      "experience": 6,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "Chicago, IL",
+      "resume_summary": "DevOps Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Snowflake; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Noah Smith 80",
+      "email": "noah.smith80@example.com",
+      "role": "Frontend Engineer",
+      "experience": 3,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Denver, CO",
+      "resume_summary": "Frontend Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Stripe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Lucas Walker 81",
+      "email": "lucas.walker81@example.com",
+      "role": "Software Engineer",
+      "experience": 4,
+      "skills": "Java, Spring Boot, SQL, Docker, Microservices, Kafka, Git, AWS",
+      "location": "San Francisco, CA",
+      "resume_summary": "Software Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Databricks; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Olivia Harris 82",
+      "email": "olivia.harris82@example.com",
+      "role": "Data Engineer",
+      "experience": 4,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "Denver, CO",
+      "resume_summary": "Data Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ava Johnson 83",
+      "email": "ava.johnson83@example.com",
+      "role": "Cloud Engineer",
+      "experience": 11,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "Denver, CO",
+      "resume_summary": "Cloud Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Anthropic; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sarah Harris 84",
+      "email": "sarah.harris84@example.com",
+      "role": "DevOps Engineer",
+      "experience": 9,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "Atlanta, GA",
+      "resume_summary": "DevOps Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at OpenAI; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Grace Moore 85",
+      "email": "grace.moore85@example.com",
+      "role": "Cloud Engineer",
+      "experience": 6,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "Remote",
+      "resume_summary": "Cloud Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Lucas White 86",
+      "email": "lucas.white86@example.com",
+      "role": "Full Stack Engineer",
+      "experience": 4,
+      "skills": "React, Node.js, TypeScript, Python, PostgreSQL, Docker, AWS, APIs",
+      "location": "Seattle, WA",
+      "resume_summary": "Full Stack Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at Snowflake; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Emma Brown 87",
+      "email": "emma.brown87@example.com",
+      "role": "Frontend Engineer",
+      "experience": 7,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "San Francisco, CA",
+      "resume_summary": "Frontend Engineer with 7 years of experience building production systems.",
+      "projects": "Built enterprise platform at Microsoft; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Robert Brown 88",
+      "email": "robert.brown88@example.com",
+      "role": "Frontend Engineer",
+      "experience": 3,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Boston, MA",
+      "resume_summary": "Frontend Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Henry Anderson 89",
+      "email": "henry.anderson89@example.com",
+      "role": "Full Stack Engineer",
+      "experience": 10,
+      "skills": "React, Node.js, TypeScript, Python, PostgreSQL, Docker, AWS, APIs",
+      "location": "Austin, TX",
+      "resume_summary": "Full Stack Engineer with 10 years of experience building production systems.",
+      "projects": "Built enterprise platform at Meta; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Grace Wilson 90",
+      "email": "grace.wilson90@example.com",
+      "role": "DevOps Engineer",
+      "experience": 6,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "Boston, MA",
+      "resume_summary": "DevOps Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Airbnb; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "David Taylor 91",
+      "email": "david.taylor91@example.com",
+      "role": "DevOps Engineer",
+      "experience": 4,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "San Francisco, CA",
+      "resume_summary": "DevOps Engineer with 4 years of experience building production systems.",
+      "projects": "Built enterprise platform at NVIDIA; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Liam Lee 92",
+      "email": "liam.lee92@example.com",
+      "role": "Frontend Engineer",
+      "experience": 9,
+      "skills": "React, TypeScript, JavaScript, HTML, CSS, Next.js, REST, Git",
+      "location": "Atlanta, GA",
+      "resume_summary": "Frontend Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at Uber; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Olivia White 93",
+      "email": "olivia.white93@example.com",
+      "role": "AI Engineer",
+      "experience": 3,
+      "skills": "Python, LLMs, OpenAI, LangGraph, LangChain, RAG, FastAPI, Docker",
+      "location": "Austin, TX",
+      "resume_summary": "AI Engineer with 3 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ava Kim 94",
+      "email": "ava.kim94@example.com",
+      "role": "Security Engineer",
+      "experience": 6,
+      "skills": "Security, Python, IAM, AWS, SIEM, Linux, Networking, Docker",
+      "location": "San Francisco, CA",
+      "resume_summary": "Security Engineer with 6 years of experience building production systems.",
+      "projects": "Built enterprise platform at Amazon; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Robert Lee 95",
+      "email": "robert.lee95@example.com",
+      "role": "Backend Engineer",
+      "experience": 11,
+      "skills": "Python, FastAPI, Docker, PostgreSQL, Redis, Kubernetes, AWS, APIs",
+      "location": "Boston, MA",
+      "resume_summary": "Backend Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Coinbase; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Michael Lewis 96",
+      "email": "michael.lewis96@example.com",
+      "role": "Data Engineer",
+      "experience": 11,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "San Francisco, CA",
+      "resume_summary": "Data Engineer with 11 years of experience building production systems.",
+      "projects": "Built enterprise platform at Google; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Sarah Patel 97",
+      "email": "sarah.patel97@example.com",
+      "role": "Data Engineer",
+      "experience": 12,
+      "skills": "Python, Spark, Airflow, SQL, Snowflake, Kafka, AWS, ETL",
+      "location": "Boston, MA",
+      "resume_summary": "Data Engineer with 12 years of experience building production systems.",
+      "projects": "Built enterprise platform at Stripe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Ava Johnson 98",
+      "email": "ava.johnson98@example.com",
+      "role": "DevOps Engineer",
+      "experience": 2,
+      "skills": "AWS, Terraform, Docker, Kubernetes, Linux, CI/CD, Python, Prometheus",
+      "location": "Boston, MA",
+      "resume_summary": "DevOps Engineer with 2 years of experience building production systems.",
+      "projects": "Built enterprise platform at Tesla; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Grace Moore 99",
+      "email": "grace.moore99@example.com",
+      "role": "Cloud Engineer",
+      "experience": 9,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "Atlanta, GA",
+      "resume_summary": "Cloud Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at Adobe; Improved scalability; Delivered cloud-native applications."
+    },
+    {
+      "name": "Mia Davis 100",
+      "email": "mia.davis100@example.com",
+      "role": "Cloud Engineer",
+      "experience": 9,
+      "skills": "AWS, Azure, Terraform, Docker, Kubernetes, Python, Networking, Linux",
+      "location": "Chicago, IL",
+      "resume_summary": "Cloud Engineer with 9 years of experience building production systems.",
+      "projects": "Built enterprise platform at Meta; Improved scalability; Delivered cloud-native applications."
+    }
+  ]

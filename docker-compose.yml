@@ -1,0 +1,19 @@
+services:
+
+  outreach-agent:
+
+    build: .
+
+    container_name: wynisco-outreach-agent
+
+    env_file:
+      - .env
+
+    stdin_open: true
+    tty: true
+
+    volumes:
+      - ./src/database:/app/src/database
+      - ./logs:/app/logs
+
+    command: python app.py

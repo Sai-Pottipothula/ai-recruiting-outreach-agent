@@ -1,0 +1,242 @@
+[
+    {
+        "company": "Stripe",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 9,
+            "factual_grounding": 8,
+            "overall": 8,
+            "feedback": "The email is highly relevant, referencing Stripe's recent acquisition and hiring activity, and aligning the candidate's skills with Stripe's needs. Personalization is good, mentioning the recipient by name and referencing company-specific events, but could be improved by including more about Rob's specific role or team. The tone is professional and courteous. Factual grounding is strong, citing the candidate's experience and technologies, though some claims (e.g., direct alignment with Stripe's goals) could be more substantiated. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "OpenAI",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, referencing OpenAI's enterprise focus and matching the candidate's experience to the company's needs. Personalization is good, addressing Ms. Murati directly and referencing OpenAI's initiatives, though it could be improved with more specific details about her role or recent projects. The tone is professional throughout. Factual grounding is strong, citing the candidate's experience and technologies, and referencing OpenAI's public direction, though some claims about OpenAI's initiatives could be more specific. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "Anthropic",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 8,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, referencing Anthropic's AI drug discovery program and connecting Sarah's experience directly to the company's needs. Personalization is strong, addressing Mr. Amodei by name and referencing specific company initiatives, though it could be improved by mentioning more about Anthropic's culture or recent achievements. The tone is professional and respectful throughout. Factual grounding is solid, with concrete details about Sarah's background and skills, though more specifics about her achievements at Stripe would further strengthen credibility. Overall, this is a well-crafted outreach email."
+        }
+    },
+    {
+        "company": "Google",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly matching the candidate's skills and experience to the needs of Google's Engineering Productivity division. There is a good level of personalization, referencing the recipient by name and tailoring the message to Google's current focus areas, though it could be improved by mentioning more specific details about the recipient's role or recent projects. The tone is professional throughout. The factual grounding is strong, with concrete examples of the candidate's experience and technologies used, though some claims about Google's initiatives are general. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "Microsoft",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly matching the candidate's skills to Microsoft's AI initiatives and platform projects. Personalization is good, addressing the recipient by name and referencing specific Microsoft projects, but could be improved by mentioning more about Drashti Garach's specific role or team. The tone is professional and respectful throughout. Factual grounding is strong, with concrete details about the candidate's experience and technologies used. Overall, this is a strong outreach email with minor room for improvement in deeper personalization."
+        }
+    },
+    {
+        "company": "Amazon",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 8,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly connecting the candidate's skills and experience to AWS's current initiatives. Personalization is strong, referencing Mr. Garman by name and mentioning AWS's strategic goals, though it could be improved by referencing more specific projects or recent news. The tone is professional and respectful throughout. Factual grounding is solid, with concrete details about the candidate's background and technologies used. Overall, this is a well-crafted outreach email."
+        }
+    },
+    {
+        "company": "Netflix",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 8,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly connecting Sarah's experience and skills to Netflix's current engineering challenges and culture. Personalization is strong, referencing both the recipient (Elizabeth) and specific Netflix initiatives, though it could be improved with more direct references to Elizabeth's role or recent work. The tone is professional and respectful throughout. Factual grounding is solid, citing specific technologies, companies, and industry trends, though some claims (e.g., Netflix's current focus) could be strengthened with more explicit evidence. Overall, this is a well-crafted outreach email."
+        }
+    },
+    {
+        "company": "Meta",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 8,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, referencing Meta's current AI initiatives and infrastructure focus, and clearly connecting Sarah's skills to those needs. Personalization is strong, with references to Mr. Bosworth's role and Meta's projects, though it could be improved by including more specific details about his recent work or public statements. The tone is professional and respectful throughout. Factual grounding is solid, citing Sarah's experience and specific technologies, as well as Meta's Llama project and engineering culture. Overall, this is a well-crafted outreach email."
+        }
+    },
+    {
+        "company": "Tesla",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 8,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, referencing Tesla's current production goals in Germany and aligning the candidate's skills with those needs. Personalization is strong, addressing the recipient by name and referencing specific company initiatives, though it could be improved by mentioning more about Mr. Taneja's specific role or team. The tone is professional and courteous throughout. Factual grounding is solid, citing the candidate's experience and specific technologies, as well as a notable achievement at Stripe. Overall, this is a well-crafted outreach email."
+        }
+    },
+    {
+        "company": "Snowflake",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, referencing Snowflake's recent product launches and aligning the candidate's skills with the company's needs. Personalization is good, addressing the recipient by name and mentioning specific company initiatives, though it could be improved by referencing more about Mr. Ramaswamy's role or team. The tone is professional throughout. Factual grounding is strong, citing the candidate's experience and specific technologies, though more detail on Sarah's impact at Stripe would further strengthen credibility. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "Databricks",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 8,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, referencing Databricks\u2019 recent collaboration and aligning the candidate\u2019s skills with the company\u2019s needs. Personalization is strong, mentioning the recipient by name and referencing specific company initiatives, though it could be improved by referencing Patrick\u2019s specific role or team. The tone is professional throughout. Factual grounding is solid, with concrete details about Sarah\u2019s experience and technologies, though some claims (e.g., impact at Stripe) could be more specific. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "Airbnb",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly matching the candidate's skills to Airbnb's needs and referencing a recent company initiative. Personalization is good, with mention of Airbnb's anti-party technology, but could be improved by addressing a specific person rather than 'Hiring Manager.' The tone is professional throughout. Factual grounding is strong, with accurate details about the candidate and Airbnb's recent activities. Overall, this is a strong outreach email with minor room for improvement in personalization."
+        }
+    },
+    {
+        "company": "Uber",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 9,
+            "factual_grounding": 8,
+            "overall": 8,
+            "feedback": "The email is highly relevant, connecting the candidate's skills and experience to Uber's current focus and needs. Personalization is good, referencing Uber's initiatives and the recipient by name, but could be improved with more specific details about Lilian's role or team. The tone is professional and courteous. Factual grounding is strong, citing specific technologies and achievements, though more concrete evidence or metrics would further strengthen credibility. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "Coinbase",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly connecting the candidate's skills and experience to Coinbase's current strategic direction. Personalization is good, referencing both the recipient and the company's recent initiatives, though it could be improved with more specific details about Nina's role or team. The tone is professional and respectful throughout. Factual grounding is strong, citing specific technologies and achievements, though claims about Coinbase's strategic shift could be strengthened with a direct reference. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "NVIDIA",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly connecting Sarah Patel's skills and experience to NVIDIA's current AI infrastructure initiatives. Personalization is good, referencing Mr. Huang and NVIDIA's specific projects, though it could be improved by mentioning more about Mr. Huang's role or recent work. The tone is professional and respectful throughout. Factual grounding is strong, with concrete details about Sarah's background and technologies used, as well as accurate references to NVIDIA's strategic direction. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "Apple",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 8,
+            "personalization": 6,
+            "professional_tone": 9,
+            "factual_grounding": 8,
+            "overall": 8,
+            "feedback": "The email is highly relevant, connecting a candidate's skills and experience to the recipient's team and recent company developments. There is some personalization (recipient's name, reference to Apple's acquisition and team), but it could be improved by mentioning more specific details about Emilie's role or recent projects. The tone is professional and courteous. Factual grounding is strong, referencing the candidate's background and Apple's recent acquisition, though more specifics (e.g., the name of the acquired app) would strengthen credibility. Overall, this is a strong outreach email with minor room for improvement in personalization and specificity."
+        }
+    },
+    {
+        "company": "Adobe",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 8,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly connecting the candidate's skills and experience to Adobe's current initiatives and strategic goals. Personalization is strong, referencing the recipient by name and mentioning a specific Adobe program, though it could be improved by including more details about Ms. Chen's specific role or recent work. The tone is professional and respectful throughout. Factual grounding is solid, with concrete examples of the candidate's achievements and technologies used, though providing more quantifiable outcomes would further strengthen credibility. Overall, this is a well-crafted outreach email."
+        }
+    },
+    {
+        "company": "HubSpot",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly matching the candidate's skills and experience to HubSpot's current initiatives and technology stack. Personalization is good, referencing HubSpot's products and recent advancements, though it could be improved by addressing the recipient by name or referencing specific team needs. The tone is professional throughout. Factual grounding is strong, with accurate references to both the candidate's background and HubSpot's technology. Overall, this is a strong outreach email with minor room for improvement in personalization."
+        }
+    },
+    {
+        "company": "Atlassian",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 9,
+            "factual_grounding": 8,
+            "overall": 8,
+            "feedback": "The email is highly relevant, referencing Atlassian's current strategic focus and matching the candidate's skills to those needs. Personalization is good, with the recipient's name and company context, but could be improved by referencing more specific details about the recipient's role or recent projects. The tone is professional and courteous. Factual grounding is strong, citing the candidate's experience and technologies, though more specifics about the candidate's achievements or direct impact would strengthen credibility. Overall, this is a strong outreach email."
+        }
+    },
+    {
+        "company": "Twilio",
+        "status": "SUCCESS",
+        "scores": {
+            "relevance": 9,
+            "personalization": 7,
+            "professional_tone": 10,
+            "factual_grounding": 9,
+            "overall": 9,
+            "feedback": "The email is highly relevant, clearly connecting the candidate's skills and experience to Twilio's business context and recent developments. Personalization is good, referencing the recipient's company, recent acquisitions, and technology focus, though it could be improved by mentioning more about Mr. Simms' specific role or achievements. The tone is professional and respectful throughout. Factual grounding is strong, with concrete details about the candidate's background and Twilio's business moves. Overall, this is a strong outreach email with minor room for deeper personalization."
+        }
+    }
+]
