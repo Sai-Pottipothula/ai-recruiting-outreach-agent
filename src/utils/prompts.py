@@ -42,7 +42,6 @@ Best,
 
 Bhavani Sai
 Technical Recruiter
-Wynisco
 
 Return ONLY valid JSON.
 

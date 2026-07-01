@@ -1,96 +1,87 @@
 # AI Recruiting Outreach Agent
 
-An AI-powered recruiting workflow for staffing and recruitment agencies. 
-Given a target company, the agent researches the company, identifies the most relevant hiring manager, recommends the best-matching candidate from an internal talent database through a Model Context Protocol (MCP) server, generates a personalized outreach email, includes a Human-in-the-Loop (HITL) approval step, and logs approved outreach to a CRM.
+An AI-powered recruiting workflow for staffing and recruitment agencies. Given a target company, the agent researches the company, identifies the appropriate hiring manager, recommends the best-matching candidate from an internal talent database through a Model Context Protocol (MCP) server, generates a personalized outreach email, requests recruiter approval, and logs approved outreach to a CRM.
 
-**Built with:** LangGraph • OpenAI • MCP • Tavily Search • SQLite • Docker
-
----
-
-## Key Features
-
-- Researches target companies using Tavily Search
-- Identifies the most relevant hiring manager
-- Retrieves the best-matching candidate through an MCP server
-- Generates personalized outreach emails using OpenAI
-- Includes a Human-in-the-Loop (HITL) approval step before CRM logging
-- Workflow orchestration using LangGraph
-- Structured logging with execution timing
-- Automated evaluation using an LLM-as-a-Judge
-- Containerized deployment with Docker
+**Built with:** LangGraph • OpenAI • Model Context Protocol (MCP) • Tavily Search • SQLite • Docker
 
 ---
 
 ## Architecture
 
-```text
-                        +--------------------+
-                        |     Recruiter      |
-                        +----------+---------+
-                                   |
-                                   v
-                    +------------------------------+
-                    |      LangGraph Workflow      |
-                    +--------------+---------------+
-                                   |
-        +--------------------------+---------------------------+
-        |                          |                           |
-        v                          v                           v
-+---------------+        +--------------------+      +------------------+
-| Company       |        | Hiring Manager     |      | Candidate        |
-| Research      |        | Identification     |      | Recommendation   |
-| (Tavily)      |        |                    |      | (MCP Server)     |
-+---------------+        +--------------------+      +--------+---------+
-                                                             |
-                                                             v
-                                                  +----------------------+
-                                                  | Talent Database      |
-                                                  | (SQLite)             |
-                                                  +----------------------+
-                                   |
-                                   v
-                        +---------------------------+
-                        | Generate Outreach Email   |
-                        | (OpenAI)                 |
-                        +------------+-------------+
-                                     |
-                                     v
-                        +---------------------------+
-                        | Human Approval (HITL)     |
-                        +------------+-------------+
-                                     |
-                                     v
-                        +---------------------------+
-                        | CRM Logger (SQLite)       |
-                        +---------------------------+
+```mermaid
+flowchart TD
+
+    A[Recruiter] --> B[LangGraph Workflow]
+
+    B --> C[Research Company]
+    C --> D[Tavily Search]
+
+    B --> E[Find Hiring Manager]
+
+    B --> F[Recommend Candidate]
+    F --> G[MCP Server]
+    G --> H[(Talent Database<br/>SQLite)]
+
+    B --> I[Generate Outreach Email]
+    I --> J[OpenAI GPT-4.1 Mini]
+
+    B --> K{Human Approval}
+
+    K -->|Approved| L[Log Outreach]
+    L --> M[(CRM Database<br/>SQLite)]
+
+    K -->|Rejected| N[Workflow Ends]
 ```
 
 ---
 
-## Workflow
+## Demo
 
-1. Enter a target company.
-2. Research the company using Tavily Search.
-3. Identify the most relevant hiring manager.
-4. Retrieve the best-matching candidate from the internal talent database through the MCP server.
-5. Generate a personalized outreach email using OpenAI.
-6. Request recruiter approval before outreach.
-7. Log approved outreach to the CRM database.
+### Agent Execution
+
+The agent researches the target company, identifies the hiring manager, retrieves the best-matching candidate through the MCP server, and generates a personalized outreach email.
+
+![Agent Execution](images/agent-execution.png)
+
+---
+
+### Generated Outreach Email
+
+A personalized outreach email is created using company research, the selected hiring manager, and the recommended candidate's experience.
+
+![Generated Email](images/generated-email.png)
+
+---
+
+### Human Approval & Workflow Completion
+
+Before outreach is recorded in the CRM, the recruiter reviews and approves the generated email. The workflow then records the interaction and displays the final execution summary.
+
+![Workflow Complete](images/workflow-complete.png)
+
+---
+
+## Design Decisions
+
+- **LangGraph** orchestrates the recruiting workflow as an explicit state machine, making each stage deterministic and easy to extend.
+- **Model Context Protocol (MCP)** exposes the talent database as an external tool, separating the agent from the underlying data source.
+- **Human-in-the-Loop (HITL)** ensures recruiter approval before CRM logging, preventing autonomous business actions.
+- **Modular Tooling** keeps research, hiring manager discovery, candidate recommendation, email generation, and CRM logging independent and maintainable.
+- **Evaluation Pipeline** measures generated email quality separately from execution using an LLM-as-a-Judge.
 
 ---
 
 ## Tech Stack
 
 | Category | Technology |
-|----------|------------|
+|-----------|------------|
 | Language | Python 3.11 |
 | Agent Framework | LangGraph |
 | LLM | OpenAI GPT-4.1 Mini |
 | Search | Tavily Search |
-| Tool Protocol | Model Context Protocol (MCP) |
+| Tool Integration | Model Context Protocol (MCP) |
 | Database | SQLite |
 | Containerization | Docker |
-| Evaluation | LLM-as-a-Judge |
 
 ---
 
@@ -99,6 +90,7 @@ Given a target company, the agent researches the company, identifies the most re
 ```text
 .
 ├── data/
+├── images/
 ├── logs/
 ├── src/
 │   ├── database/
@@ -111,29 +103,30 @@ Given a target company, the agent researches the company, identifies the most re
 ├── app.py
 ├── Dockerfile
 ├── docker-compose.yml
-└── pyproject.toml
+├── pyproject.toml
+└── README.md
 ```
 
 ---
 
-## Installation
+## Getting Started
 
-Clone the repository:
+### Clone the repository
 
 ```bash
-git clone https://github.com/<username>/ai-recruiting-outreach-agent.git
+git clone https://github.com/<your-username>/ai-recruiting-outreach-agent.git
 cd ai-recruiting-outreach-agent
 ```
 
-Create a virtual environment:
+### Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate the environment:
+### Activate the environment
 
-**macOS/Linux**
+**macOS / Linux**
 
 ```bash
 source venv/bin/activate
@@ -145,71 +138,50 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
-Install dependencies:
+### Install dependencies
 
 ```bash
 pip install .
 ```
 
-Create a `.env` file:
+### Configure environment variables
+
+Create a `.env` file.
 
 ```text
-OPENAI_API_KEY=your_openai_key
-TAVILY_API_KEY=your_tavily_key
+OPENAI_API_KEY=your_openai_api_key
+TAVILY_API_KEY=your_tavily_api_key
 ```
 
----
-
-## Running the Agent
+### Run the application
 
 ```bash
 python app.py
 ```
 
-Example:
-
-```text
-Enter company name: Stripe
-```
-
-The workflow will:
-
-- Research the company
-- Find a hiring manager
-- Recommend a candidate
-- Generate an outreach email
-- Request approval
-- Save the outreach to the CRM
-
 ---
 
 ## Running with Docker
 
-Build and start the application:
+Build and start the application.
 
 ```bash
 docker compose up
-```
-
-Or run the container directly:
-
-```bash
-docker run --rm -it --env-file .env ai-recruiting-outreach-agent
 ```
 
 ---
 
 ## Evaluation
 
-The project includes an automated evaluation pipeline using an LLM-as-a-Judge.
+The project includes a **20-case evaluation pipeline** that measures the quality of generated outreach emails using an LLM-as-a-Judge.
 
-Run:
+Run the evaluation:
 
 ```bash
 python -m src.evaluation.run_eval
 ```
 
-The evaluation measures:
+Each generated email is scored across the following dimensions:
 
 - Relevance
 - Personalization
@@ -217,7 +189,7 @@ The evaluation measures:
 - Factual Grounding
 - Overall Quality
 
-Results are saved to:
+Evaluation results are saved to:
 
 ```text
 src/evaluation/evaluation_results.json
@@ -227,12 +199,12 @@ src/evaluation/evaluation_results.json
 
 ## Future Improvements
 
-- Integrate Apollo.io for real hiring contact discovery
+- Integrate Apollo.io for live hiring contact discovery
 - Send approved outreach using the Gmail API
-- Replace the SQLite CRM with a production CRM (Salesforce, HubSpot, etc.)
+- Replace the SQLite CRM with Salesforce or HubSpot
 - Add LangSmith or OpenTelemetry tracing
-- Extend the workflow with additional recruiter tools
-- Deploy as a web application
+- Compare multiple LLMs for quality, latency, and cost
+- Extend the workflow into a multi-agent recruiting system
 
 ---
 
