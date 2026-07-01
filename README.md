@@ -2,7 +2,22 @@
 
 An AI-powered recruiting workflow for staffing and recruitment agencies. 
 
-Given a target company, the agent researches the company, identifies the appropriate hiring manager, recommends the best-matching candidate from an internal talent database through a Model Context Protocol (MCP) server, generates a personalized outreach email, requests recruiter approval, and logs approved outreach to a CRM.
+Given a target company, the agent autonomously performs the recruiting outreach workflow: 
+1. Researches the company 
+2. Finds the most relevant hiring manager 
+3. Recommends the best candidate 
+4. Generates a personalized outreach email 
+5. Requests recruiter approval 
+6. Logs the outreach into the CRM
+
+# Tools Used by the Agent:
+| Tool                              | Purpose                                                                                                                |
+| --------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Company Research Tool**         | Researches the target company and gathers company information using Tavily Search.                                     |
+| **Hiring Manager Discovery Tool** | Identifies the most appropriate hiring manager based on company research.                                              |
+| **Candidate Recommendation Tool** | Queries the MCP server to retrieve the best-matching candidate from the internal talent database.                      |
+| **Email Generation Tool**         | Uses OpenAI to generate a personalized outreach email tailored to the company, hiring manager, and selected candidate. |
+| **CRM Logging Tool**              | Stores approved outreach emails and recruiter activity in the CRM database.                              
 
 **Built with:** LangGraph • OpenAI • Model Context Protocol (MCP) • Tavily Search • SQLite • Docker
 
@@ -17,22 +32,25 @@ flowchart TD
 
     B --> C[Research Company]
     C --> D[Tavily Search]
+    C --> E[OpenAI GPT-4.1 Mini]
 
-    B --> E[Find Hiring Manager]
+    B --> F[Find Hiring Manager]
+    F --> D
+    F --> E
 
-    B --> F[Recommend Candidate]
-    F --> G[MCP Server]
-    G --> H[(Talent Database<br/>SQLite)]
+    B --> G[Recommend Candidate]
+    G --> H[Candidate MCP Server]
+    H --> I[(Talent Database<br/>SQLite)]
 
-    B --> I[Generate Outreach Email]
-    I --> J[OpenAI GPT-4.1 Mini]
+    B --> J[Generate Outreach Email]
+    J --> E
 
     B --> K{Human Approval}
 
-    K -->|Approved| L[Log Outreach]
+    K -->|Approved| L[CRM Logging]
     L --> M[(CRM Database<br/>SQLite)]
 
-    K -->|Rejected| N[Workflow Ends]
+    K -->|Rejected| N[End Workflow]
 ```
 
 ---
