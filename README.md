@@ -1,6 +1,8 @@
 # AI Recruiting Outreach Agent
 
-An AI-powered recruiting workflow for staffing and recruitment agencies. Given a target company, the agent researches the company, identifies the appropriate hiring manager, recommends the best-matching candidate from an internal talent database through a Model Context Protocol (MCP) server, generates a personalized outreach email, requests recruiter approval, and logs approved outreach to a CRM.
+An AI-powered recruiting workflow for staffing and recruitment agencies. 
+
+Given a target company, the agent researches the company, identifies the appropriate hiring manager, recommends the best-matching candidate from an internal talent database through a Model Context Protocol (MCP) server, generates a personalized outreach email, requests recruiter approval, and logs approved outreach to a CRM.
 
 **Built with:** LangGraph • OpenAI • Model Context Protocol (MCP) • Tavily Search • SQLite • Docker
 
